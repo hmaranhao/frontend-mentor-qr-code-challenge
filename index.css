@@ -34,10 +34,10 @@ p {
 
 .card {
   width: 280px;
-  height: 470px;
+  height: 460px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
-  padding: 20px;
+  padding: 15px;
   box-shadow: 2px 1px 10px -2px #ccc;
 }
 
@@ -46,13 +46,16 @@ p {
   border-radius: 10px;
 }
 
-.title{
-  font-weight: 700;
-  font-size: 22px;
+.title{  
   text-align: center;
   color: hsl(218, 44%, 22%);
   margin-top: 15px;
   padding: 10px 10px 0px 10px;
+}
+
+.title>h1 {
+  font-weight: 700;
+  font-size: 22px;
 }
 
 .description{
